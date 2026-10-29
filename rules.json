@@ -1,0 +1,5 @@
+{"v":1,
+ "deny":["logs/**","**/*.pem","**/*.key","**/id_rsa","**/id_ed25519","**/*.age"],
+ "t3":["vm/**","renovate.json",".forgejo/**"],
+ "owner_only":["policy/**","agents/**"],
+ "deny_symlinks":true,"deny_submodules":true,"max_file_bytes":1048576}
